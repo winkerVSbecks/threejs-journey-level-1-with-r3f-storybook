@@ -1,0 +1,39 @@
+{
+  "name": "threejs-journey-level-1",
+  "version": "1.0.0",
+  "description": "A recreation of the first level from https://threejs-journey.com.",
+  "keywords": [
+    "threejs",
+    "webgl",
+    "models",
+    "react-three-fiber"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@react-spring/three": "9.3.1",
+    "@react-three/drei": "7.25.1",
+    "@react-three/fiber": "7.0.21",
+    "@react-three/postprocessing": "2.0.5",
+    "@use-gesture/react": "10.1.6",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.135.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
